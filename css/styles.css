@@ -70,11 +70,9 @@ html {
   padding-bottom: 10px;
   padding: 20px;
 }
-.menu-link:hover {
-  cursor: pointer;
-  color: var(--blue);
-}
+.menu-link:hover,
 .menu-link:focus {
+  cursor: pointer;
   color: var(--blue);
 }
 .menu-link {
@@ -99,14 +97,20 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .hero-section-title {
+  width: 696px;
+  height: 120px;
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
   letter-spacing: 0.06em;
-  text-align: center;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
 /*hero section button*/
 .hero-section button {
@@ -119,6 +123,9 @@ html {
   cursor: pointer;
   color: #ffffff;
   background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-section button:hover {
   background-color: var(--white);
@@ -203,7 +210,6 @@ html {
 .basement-section {
   padding-left: 50px;
   background-color: #2f303a;
-  width: 1600px;
   height: 251px;
   top: 2097px;
   gap: 0px;
