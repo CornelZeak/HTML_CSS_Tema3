@@ -7,17 +7,20 @@
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 1200px;
-}
-
 /*our-website-section*/
 .our-website {
   font-family: var(--main-font);
   font-weight: 500;
   color: var(--black);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+.section {
+  width: 1200;
+  padding: 94px 0px 94px 0px;
 }
 /*header-section*/
 .header-section {
@@ -262,7 +265,6 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding-left: 94px;
 }
 .basement-logo {
   color: var(--white);
