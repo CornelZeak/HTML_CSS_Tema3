@@ -16,6 +16,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  margin-right: auto;
   width: 1200px;
 }
 .section {
@@ -33,8 +34,6 @@
 }
 /*logo-section-header-footer*/
 .logo-main {
-  padding-left: 5px;
-  padding-top: 10px;
   font-family: var(--secondary-font);
   font-size: 26px;
   font-weight: 700;
@@ -52,7 +51,7 @@
   display: inline-flex;
   flex-direction: row;
   text-align: center;
-  margin-left: 50px;
+  padding-left: 100px;
 }
 .header-section__list-main {
   display: inline-flex;
@@ -89,8 +88,8 @@
   align-items: baseline;
   display: inline-flex;
   flex-direction: row;
-  justify-content: center;
   text-align: center;
+  padding-left: 160px;
 }
 /*header-section-left-side*/
 .header-section__left-block {
@@ -251,20 +250,18 @@
 /*footer-section*/
 .basement-section {
   background-color: #2f303a;
-  height: 251px;
-  top: 2097px;
+  width: 1200;
   gap: 0px;
   font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: left;
   color: var(--white);
-}
-/*basement-logo-section*/
-.basement {
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+/*basement-logo-section*/
+.basement {
+  padding-left: 100px;
 }
 .basement-logo {
   color: var(--white);
