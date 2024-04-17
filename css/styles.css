@@ -33,13 +33,13 @@ img {
   width: 1200px;
 }
 .section {
-  width: 1200;
+  width: 1200px;
   padding: 94px 0px 94px 0px;
 }
 /*header-section*/
 .header-section {
   height: 80px;
-  display: flexbox;
+  display: flex;
   flex-direction: row;
   border: var(--blue);
 
@@ -198,7 +198,7 @@ img {
   display: flex;
   justify-content: space-between;
   margin-top: 94px;
-  padding-left: 94;
+  padding-left: 94px;
 }
 .main-content__what-we-do h2 {
   text-align: center;
@@ -233,6 +233,9 @@ img {
 .portofolio-content {
   font-size: 16px;
   text-align: center;
+}
+.container-porto-main {
+  border: 1px solid #eeeeee;
 }
 .portofolio-content button {
   cursor: pointer;
@@ -275,12 +278,12 @@ img {
   font-size: 18px;
 }
 .card {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 /*footer-section*/
 .basement-section {
   background-color: #2f303a;
-  width: 1200;
+  width: 1200px;
   gap: 0px;
   font-size: 14px;
   letter-spacing: 0.03em;
