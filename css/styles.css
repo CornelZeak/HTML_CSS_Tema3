@@ -7,6 +7,18 @@
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /*our-website-section*/
 .our-website {
   font-family: var(--main-font);
@@ -17,6 +29,7 @@
   display: flex;
   flex-direction: column;
   margin-right: auto;
+  margin-left: auto;
   width: 1200px;
 }
 .section {
@@ -26,10 +39,10 @@
 /*header-section*/
 .header-section {
   height: 80px;
-  display: flex;
+  display: flexbox;
   flex-direction: row;
   border: var(--blue);
-  align-items: baseline;
+
   margin-bottom: 10px;
 }
 /*logo-section-header-footer*/
@@ -182,7 +195,10 @@
   margin-top: 94px;
 }
 .picture-what-we-do {
-  justify-content: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 94px;
+  padding-left: 94;
 }
 .main-content__what-we-do h2 {
   text-align: center;
@@ -221,10 +237,15 @@
 .portofolio-content button {
   cursor: pointer;
 }
-.portofolio-content__menu-list li {
-  display: inline-flex;
-  flex-direction: row;
+.portofolio-content ul {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.menu-portofolio {
+  border-style: none;
 }
 .menu-portofolio:hover {
   background-color: var(--blue);
@@ -239,6 +260,12 @@
   color: var(--white);
   border-color: var(--blue);
 }
+.portofolio-content__box-list {
+  width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .portofolio-content__box-list p {
   font-size: 16px;
   color: var(--black-dark);
@@ -246,6 +273,9 @@
 .portofolio-content__box-list h2 {
   font-weight: 700;
   font-size: 18px;
+}
+.card {
+  margin-bottom: 5px;
 }
 /*footer-section*/
 .basement-section {
@@ -262,6 +292,7 @@
 /*basement-logo-section*/
 .basement {
   padding-left: 100px;
+  padding-top: 20px;
 }
 .basement-logo {
   color: var(--white);
@@ -272,8 +303,18 @@
   list-style: none;
   padding-left: 0px;
 }
-.footer-list__item-mail,
-.footer-list__item-phone {
+
+.menu-link-porto {
+  list-style: none;
+  text-decoration: none;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
+}
+.menu-link-porto:hover,
+:focus {
+  color: #2196f3;
+}
+.basement-logo:hover,
+:focus {
+  color: #2196f3;
 }
